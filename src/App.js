@@ -3,6 +3,8 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Menu from './components/Menu/Menu';
 import MainUseContext from './components/UseContext/MainUseContext';
+import MainUseReducer from './components/UseReducer/MainUseReducer';
+import TodoApp from './components/ToDoApp/TodoApp';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
             <Routes>
               <Route path='/' element={<MainUseContext />} />
               <Route path='/use-context' element={<MainUseContext />} />
+              <Route path='/use-reducer' element={<MainUseReducer />} />x
+              <Route path='/todo-app' element={<TodoApp />} />x
             </Routes>
           </div>
         </div>
